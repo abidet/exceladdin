@@ -1,0 +1,9 @@
+{
+    "tenant": "sieml.onmicrosoft.com",
+    "authorityHostUrl": "https://login.windows.net",
+    "clientId": "77674636-6a5d-49e5-9412-8fbe718cc078",
+    "clientSecret": "BYh8fH8/vIU1XE6htkE2ovXAXAdlmxJ8zbt+W0pW9WE=",
+    "resource": "https://sieml.sharepoint.com",
+    "username" : "o.hanrion@sieml.fr",
+    "password" : "i47UCqg8"
+}
