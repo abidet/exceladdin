@@ -16,6 +16,11 @@ app.use(session({secret: '1234567890QWERTY'}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+app.get('/', function(req, res) {
+  res.send("Serveur connecté") 
+ 
+});
+
 app.get('/report', function(req, res) {
     spHelper.getListItems(req, res); 
    
@@ -40,5 +45,5 @@ app.get('/getAToken', function (req, res) {
 });
 });
 
-app.listen(3000);
-console.log('listening on 3000');
+app.listen(443);
+console.log('listening on 443');
