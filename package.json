@@ -7,6 +7,7 @@
     "url": "git://github.com/abidet/exceladdin"
   },
   "engines": {
+    "node": "8.9.4",    
     "npm": "5.6.x"
   },
   "main": "main.js",
