@@ -1,0 +1,24 @@
+{
+  "name": "ExportExcelAddin",
+  "version": "0.0.9",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abidet/exceladdin"
+  },
+  "engines": {
+    "npm": "5.6.x"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "adal-node": ">= 0.1.17",
+    "express": "4.13",
+    "connect-logger": "0.x",
+    "cookie-parser": "1.4",
+    "cookie-session": "2.x",
+    "msexcel-builder": "0.0.2",
+    "unirest": "2.14.x",
+    "body-parser": "2.14.x"
+  }
+
+}
